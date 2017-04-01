@@ -9,7 +9,7 @@ just drag the bookmarklet link below into your bookmarks, and click when you wan
 to run the bot.
 
 * [Userscript](https://github.com/grind086/PlaceBot/raw/master/dist/placebot.user.js)
-* <a href="$$bookmarklet">Bookmarklet</a>
+* <a href="javascript:(function() {var j = document.createElement('script');j.setAttribute('type', 'text/javascript');j.setAttribute('src', 'https://raw.githubusercontent.com/ahalekelly/PlaceBot/master/blueCorner.js');var s = document.createElement('script');s.setAttribute('type', 'text/javascript');s.setAttribute('src','https://raw.githubusercontent.com/ahalekelly/PlaceBot/master/placebot.js');document.head.appendChild(s);})();">Bookmarklet</a>
 
 ## Features
 
