@@ -14,5 +14,5 @@ function makeRectangle(x1, y1, x2, y2, c) {
 	}
 }
 
-var output = JSON.stringify(tiles)
+var output = "var tiles="+JSON.stringify(tiles)+";"
 fs.writeFile("nerfDart.js",output)
