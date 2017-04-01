@@ -29,7 +29,7 @@
         /**
          * @property {Function} tileSelector - A function that returns the index of the next tile to draw
          */
-        this.tileSelector = PlaceBot.selector.TopDown;
+        this.tileSelector = PlaceBot.selector.DrawOrder;
         
         /**
          * @property {Function} _tileGeneratorFactory - The function that actually returns a tile generator
@@ -229,7 +229,7 @@
         
         var settings = Object.assign(this._settingsObject(), imported.data);
         
-        this.tileSelector = PlaceBot.selector[settings.tileSelector] || PlaceBot.selector.TopDown;
+        this.tileSelector = PlaceBot.selector[settings.tileSelector] || PlaceBot.selector.DrawOrder;
         this.minTimer = settings.minTimer;
     };
     
@@ -303,7 +303,7 @@
                         this.tileSelector = imported.data;
                     }
                     else {
-                        this.tileSelector = PlaceBot.selector.TopDown;
+                        this.tileSelector = PlaceBot.selector.DrawOrder;
                     }
                 }
                 
@@ -326,7 +326,7 @@
             
             default:
                 this.tiles = [];
-                this.setTileFunction(PlaceBot.placeMode.ARRAY, 'TopDown');
+                this.setTileFunction(PlaceBot.placeMode.ARRAY, 'DrawOrder');
         }
     };
     
