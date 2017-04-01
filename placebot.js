@@ -136,7 +136,6 @@
                     this._setTimer();
                 }.bind(this));
                 
-                this.save();
             }
         }
         
