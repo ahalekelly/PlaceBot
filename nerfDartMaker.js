@@ -4,7 +4,7 @@ tiles=[]
 
 var blue=13
 
-makeRectangle(56, 248, 56+50-8, 257, blue)
+makeRectangle(56, 248, 56+50-8, 256, blue)
 
 function makeRectangle(x1, y1, x2, y2, c) {
 	for (var x=x1; x<=x2; x++) {
