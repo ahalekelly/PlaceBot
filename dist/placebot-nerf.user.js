@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        PlaceBot Blue Corner
+// @name        PlaceBot Nerf Dart
 // @version     0.0.5
 // @namespace   https://github.com/ahalekelly/PlaceBot
 // @description A bot that automates drawing on reddit.com/r/place
@@ -10,7 +10,7 @@
 (function() {
 var j = document.createElement('script');
 j.setAttribute('type', 'text/javascript');
-j.setAttribute('src', 'https://ahalekelly.github.io/PlaceBot/blueCorner.js');
+j.setAttribute('src', 'https://ahalekelly.github.io/PlaceBot/nerfDart.js');
 document.head.appendChild(j);
 setTimeout(function() {
 var s = document.createElement('script');
