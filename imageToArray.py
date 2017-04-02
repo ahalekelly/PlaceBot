@@ -13,7 +13,7 @@ for x in range(image.width)[::-1]:
         color=False
         pixel = image.getpixel((x,y))
         if pixel != (255,255,255,0):
-            print(pixel)
+            print(x,y,pixel)
         if pixel == (255,255,255,255):
             color=0
         elif pixel == (0,0,234,255):
