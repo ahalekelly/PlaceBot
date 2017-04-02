@@ -9,7 +9,7 @@
     r.placeModule('', function(require) {
         api = require('api');
     });
-    
+	setTimeout(function() {location.reload(true);}, 60*60*1000);
     /**
      * @class PlaceBot
      */
