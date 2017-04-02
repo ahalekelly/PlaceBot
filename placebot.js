@@ -49,7 +49,7 @@
         /**
          * @property {Number} minTimer - The minimum time to use between trying to draw
          */
-        this.minTimer = 100;
+        this.minTimer = 10;
         
         /**
          * @property {Number} lastDrawTime - The last time a tile was drawn
