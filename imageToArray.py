@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 from glob import glob
 import json
-image = Image.open("nerfDart.png")
+image = Image.open("nerfDartLeft.png")
 
 tiles = []
 
